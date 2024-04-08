@@ -1,0 +1,40 @@
+/* styles.css */
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 6px;
+    /* justify-content: center;
+    align-items: center; */
+    margin: auto;
+    /* width: 310px; */
+    /* height: 100px; */
+  }
+
+  .tile {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    flex-direction: column; /* Removed quotes */
+    align-items: center; /* Removed quotes */
+  }
+
+  .tile p {
+    margin: -5px 0; /* Adjust as needed */
+  }
+  
+  .circle-button {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #ccc; /* Change this to your desired background color */
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+  }
